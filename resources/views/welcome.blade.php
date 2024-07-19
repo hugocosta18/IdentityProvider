@@ -18,7 +18,7 @@
         <div class="relative sm:flex sm:justify-center sm:items-center min-h-screen bg-dots-darker bg-center bg-gray-100 dark:bg-dots-lighter dark:bg-gray-900 selection:bg-red-500 selection:text-white">
             <div class="text-center">
                 <i class="fa-solid fa-seedling fa-2xl" style="color: #B197FC;"></i>
-                <h1 class="text-8xl font-extrabold text-white">Your Words</h1>
+                <h1 class="text-8xl font-extrabold" style="color:#ffd43b ">Your Words</h1>
                 @if (Route::has('login'))
                     <livewire:welcome.navigation />
                 @endif
