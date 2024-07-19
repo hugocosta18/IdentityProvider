@@ -19,11 +19,11 @@ Route::view('dashboard', 'dashboard')
     ->middleware(['auth', 'verified'])
     ->name('dashboard');
 
-Route::get('/', [PostController::class, 'index'])
+Route::get('posts', [PostController::class, 'index'])
     ->middleware(['auth', 'verified'])
     ->name('posts.index');
 
-Route::post('/', [PostController::class, 'store'])
+Route::post('posts', [PostController::class, 'store'])
     ->middleware(['auth', 'verified'])
     ->name('posts.store');
 
